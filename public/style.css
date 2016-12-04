@@ -1,0 +1,64 @@
+body{
+    background-color: #FFAABB;
+    font-family: Arial;
+    font-size: 25px;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+h1{
+    color: green;
+    text-shadow: 1px 1px black;
+}
+.delete{
+    margin-left: 400px;
+    background: blueviolet;
+    border-radius: 15px;
+    color: azure;
+}
+button{
+    color: red;
+    background: ghostwhite;
+    height: 30px;
+    width: 100px;
+}
+li{
+    margin-right: 250px;
+    color: maroon;
+    width: 70%;
+    border-radius: 10px;
+}
+ul li:nth-child(odd){
+    background: lightcoral;
+}
+ul li:nth-child(even){
+    background: lightgreen;
+}
+ul li:nth-child(3n){
+    background: lightblue;
+}
+ul li:hover{
+    background: yellow;
+}
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px darkslateblue;
+    color: white;
+    background: darkorange;
+}
+.btn{
+    border-radius: 15px;
+    border: #BB3399;
+    background: turquoise;
+}
+button:hover{
+    background: #AA3453;
+    color: white;
+    box-shadow: 1px 2px yellow;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
